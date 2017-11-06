@@ -57,6 +57,23 @@ body {
   background-color: #fff;
   color: #444;
 }
+.counter {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 3em;
+	background: transparent;
+	border: none;
+	text-align: center;
+	font-size: 1.2em;
+	color: #fff;
+}
+.counter.player1 {
+}
+.counter.player2 {
+	left: auto;
+	right: 10px;
+}
 .message {
   position: fixed;
   top: 2.5rem;
